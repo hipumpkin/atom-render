@@ -1,0 +1,12 @@
+{
+    "env": {"browser": true},
+    "plugins": [
+        "@typescript-eslint",
+        "plugin:react/jsx-runtime"
+    ],
+    "extends":["plugin:react/jsx-runtime"],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".tsx"] }]
+    }
+}
